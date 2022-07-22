@@ -1,3 +1,7 @@
+import { BsBezier } from "react-icons/bs";
+import { BiChevronsRight } from "react-icons/bi";
+import { FaLaptopCode, FaSearchDollar } from "react-icons/fa";
+
 const Services: React.FC = () => {
   return (
     <div className="w-full p-6 bg-blue-100">
@@ -10,7 +14,7 @@ const Services: React.FC = () => {
       <div className="flex justify-center flex-wrap p-10">
         <div className="relative w-48 h-64 m-5 bg-white shadow-lg">
           <div className="flex items-center w-48 h-20 bg-orange-400">
-            <i className="fas fa-bezier-curve fa-3x mx-auto text-white">:)</i>
+            <BsBezier className="text-white text-5xl mx-auto" />
           </div>
           <p className="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase">
             Ui Design
@@ -20,12 +24,12 @@ const Services: React.FC = () => {
             acest massa.
           </p>
           <div className="absolute right-0 bottom-0 w-8 h-8 bg-gray-300 hover:bg-orange-300 text-center cursor-pointer">
-            <i className="fas fa-chevron-right mt-2 text-orange-500">:)</i>
+            <BiChevronsRight className="mt-2 text-orange-500 text-xl mx-auto" />
           </div>
         </div>
         <div className="relative w-48 h-64 m-5 bg-white shadow-lg">
           <div className="flex items-center w-48 h-20 bg-green-400">
-            <i className="fas fa-bezier-curve fa-3x mx-auto text-white">:)</i>
+            <FaLaptopCode className="mx-auto text-white text-5xl" />
           </div>
           <p className="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase">
             Web Dev
@@ -35,12 +39,12 @@ const Services: React.FC = () => {
             acest massa.
           </p>
           <div className="absolute right-0 bottom-0 w-8 h-8 bg-gray-300 hover:bg-green-300 text-center cursor-pointer">
-            <i className="fas fa-chevron-right mt-2 text-green-500">:)</i>
+            <BiChevronsRight className="mt-2 text-green-500 text-xl mx-auto" />
           </div>
         </div>
         <div className="relative w-48 h-64 m-5 bg-white shadow-lg">
           <div className="flex items-center w-48 h-20 bg-yellow-400">
-            <i className="fas fa-bezier-curve fa-3x mx-auto text-white">:)</i>
+            <FaSearchDollar className="mx-auto text-white text-5xl" />
           </div>
           <p className="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase">
             SEO
@@ -50,7 +54,7 @@ const Services: React.FC = () => {
             acest massa.
           </p>
           <div className="absolute right-0 bottom-0 w-8 h-8 bg-gray-300 hover:bg-yellow-300 text-center cursor-pointer">
-            <i className="fas fa-chevron-right mt-2 text-yellow-500">:)</i>
+            <BiChevronsRight className="mt-2 text-yellow-500 text-xl mx-auto" />
           </div>
         </div>
       </div>

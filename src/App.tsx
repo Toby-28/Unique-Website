@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <Header/>
-      {/* <Services/> */}
+      <Services/>
       <Projects/>
     </div>
   );
