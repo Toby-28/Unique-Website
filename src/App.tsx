@@ -5,9 +5,9 @@ import Services from "./components/Services/Services";
 function App() {
   return (
     <div className="container mx-auto">
-      {/* <Header/> */}
+      <Header/>
       {/* <Services/> */}
-      {/* <Projects/> */}
+      <Projects/>
     </div>
   );
 }
